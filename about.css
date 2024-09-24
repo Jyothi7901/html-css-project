@@ -1,0 +1,262 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1,h3 {
+    font-weight: 400 !important; 
+  }
+
+.header {
+    background-image: url('./about\ img.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    height: 600px;
+    text-align: center;
+    padding: 50px;
+    color:black;
+}
+.header h1{
+    font-size: 50px;
+}
+.header h3{
+    font-size: 20px;
+}
+.c1 h3{
+    font-size: 30px;
+}
+.c1 p{
+    font-size: 20px;
+}
+.c2 h1{
+    font-size: 30px;
+}
+.c31 h1{
+    font-size: 40px;
+}
+.c1 {
+    text-align: center;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.c2 {
+    background-image: url('./people.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    height: 314px;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+.im > img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.im {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 1200px; 
+}
+.partners{
+    text-align: center;
+}
+
+@media (max-width: 1120px) {
+    .header, .c2 {
+        background-size: cover; 
+        background-position: center; 
+        height: auto; 
+    }
+
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .im {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+        margin: 0 auto;
+        max-width: 1200px; 
+    }
+    
+    img{
+        border-radius: 20px;
+    }
+}
+
+.c3 {
+    margin: 20px auto; 
+    max-width: 1200px; 
+    padding: 0 10px; 
+}
+
+.c31 {
+    text-align: center;
+    padding: 10px;
+}
+
+.c32 {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px;
+}
+
+.i3 {
+    text-align: center;
+}
+
+.p-h {
+    text-align: center;
+}
+
+.pc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    padding: 10px;
+}
+
+.rect {
+    background-image: url(./rect-bg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    color: rgb(148, 146, 146);
+    padding: 20px;
+    text-align: center;
+}
+
+.f-t {
+    background-color:black;
+    padding: 15px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 30px;
+    background-color: whitesmoke;
+}
+.f-t i:hover{
+    color: blue;
+}
+
+.f-f {
+    margin-top: 20px;
+    color: rgb(172, 172, 172);
+    text-align: center;
+}
+.f-f h3:hover{
+    color: black;
+}
+
+
+@media (max-width: 1120px) {
+    .header {
+        padding: 30px; 
+    }
+
+    .c1 {
+        padding: 15px;
+        margin-left: 100px;
+    margin-right: 100px; 
+    }
+
+    .c2 {
+        padding: 30px; 
+    }
+
+    .c3 {
+        margin: 10px auto;
+        padding: 0 5px; 
+    }
+
+    .pc {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .c32 {
+        gap: 15px; 
+    }
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .im {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+        margin: 0 auto;
+        max-width: 1200px; 
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        padding: 20px; 
+    }
+
+    .c1 {
+        padding: 10px; 
+        margin-left: 100px;
+    margin-right: 100px;
+    }
+
+    .c2 {
+        padding: 20px; 
+    }
+
+    .c3 {
+        margin: 5px auto;
+        padding: 0; 
+    }
+
+    .pc {
+        padding: 5px;
+    }
+
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .im {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 10px;
+        margin: 0 auto;
+        max-width: 1200px; 
+    }
+
+   
+}
